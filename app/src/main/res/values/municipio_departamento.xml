@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="municipios">
+        <item> Armenia, Quindío</item>
+        <item> Buenavista, Quindío</item>
+        <item> Calarcá, Quindío</item>
+        <item> Circasia, Quindío</item>
+        <item> Córdoba, Quindío</item>
+        <item> Filandia, Quindío</item>
+        <item> Génova, Quindío</item>
+        <item> La Tebaida, Quindío</item>
+        <item> Montenegro, Quindio</item>
+        <item> Pijao, Quindío</item>
+        <item> Quimbaya, Quindío</item>
+    </string-array>
+</resources>

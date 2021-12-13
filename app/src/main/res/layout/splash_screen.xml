@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SplashScreenActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:textColor="#6E6E6E"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignTop="@id/data"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:alpha="1"
+        android:text="DATA COVID -19"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrim"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:text="DATA COVID -19" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_splash"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="118dp"
+        android:layout_height="13dp"
+        android:layout_alignRight="@id/pt"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="201dp"
+        android:alpha="0"
+        android:gravity="center_horizontal"
+        android:text="DATA COVID-19"
+        android:textColor="#03A9F4"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pt"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="-167dp"
+        android:gravity="center_horizontal"
+        android:text="Almacene datos del usuario de forma segura"
+        android:textColor="#FF9800"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_alignTop="@id/textView17"
+        android:layout_alignRight="@id/textView17"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-449dp"
+        android:layout_marginRight="-31dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/user" />
+
+    <!-- Footer aligned to bottom -->
+
+
+</RelativeLayout>
