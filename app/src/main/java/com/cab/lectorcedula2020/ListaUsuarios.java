@@ -122,7 +122,7 @@ public class ListaUsuarios extends AppCompatActivity {
         if(!carpeta.exists()) {
             carpeta.mkdirs();
             //isCreate = carpeta.mkdir();
-            Toast.makeText(ListaUsuarios.this, "SE CREO CARPETA !", Toast.LENGTH_LONG).show();
+            Toast.makeText(ListaUsuarios.this, "SE CREO CARPETA !!", Toast.LENGTH_LONG).show();
         }
         try {
             FileWriter fileWriter = new FileWriter(archivoAgenda);
