@@ -12,10 +12,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
 import java.util.Timer;
 import java.util.TimerTask;
-
 import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
@@ -32,10 +30,7 @@ public class SplashScreenActivity extends Activity {
 
     // Set the duration of the splash screen
     private static final long SPLASH_SCREEN_DELAY = 2000;
-
     private TextView logo;
-
-
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
