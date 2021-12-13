@@ -13,10 +13,12 @@ Requerimientos
 * Listado de lectura con datos leidos de cédula.
 * Base de datos local sqLite.
 
+## <a href="https://www.youtube.com/watch?v=C2OBPEzWOdY" target="_blank">DEMO</a>
+
 Tecnologías Usadas
 * back-end  : Java, sqLite
 * front-end : XML
-* libreria lectura QR :  Zxing
+* libreria lectura QR : Zxing
 * IDE Android Studio Version 3.5
 
 Desarrollado
