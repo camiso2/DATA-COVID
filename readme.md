@@ -1,4 +1,4 @@
-Data Covid 19
+Data Covid 19 Aplicativo Android Nativo Versiones (5,6,7,8,9)
 
 Sistema desarrollado para propuesta comercial
 
@@ -17,6 +17,7 @@ Tecnologías Usadas
 * back-end  : Java, sqLite
 * front-end : XML
 * libreria lectura QR :  Zxing
+* IDE Android Studio Version 3.5
 
 Desarrollado
 * Jaiver Andrés Ocampo Oviedo
